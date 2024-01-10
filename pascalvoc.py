@@ -200,7 +200,7 @@ def getBoundingBoxes(directory,
 # Get current path to set default folders
 currentPath = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = '0.2 (beta)'
+VERSION = '0.3 (beta)'
 
 with open('message.txt', 'r') as f:
     message = f'\n\n{f.read()}\n\n'
